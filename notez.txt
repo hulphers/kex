@@ -1,0 +1,37 @@
+
+Mainly designed for deep neural networks
+API - application programming interface
+
+- What is TensorFlow?
+Software library for dataflow programming
+Symbolic math library, also used for machine learning applications (such as ANNs)
+Used for research and production
+
+- What does it do?
+Nodes represent mathematical operations
+Edges represent tensors
+
+- How does it work?
+The graph of interacting operations is run entirely outside Python (expensive operations like matrix multiplications can be done using other programming languages)
+
+
+- Why was it developed?
+Originally developed by the Google Brain Team (DistBelief, a machine learning system)
+(for research)
+Was used across different companies
+Simplifying and refactoring the codebase --> TensorFlow
+Mainly designed for deep neural networks
+
+
+Do we want to compare with another neural network? Theano? scikit-learn? What is the advantage/disadvantage of tensorflow and why?
+vs Theano: A little more mature. TF is still chaning and evolving. API more complex. Less documentation. Longer compilation times
+vs scikit-learn: TF more low-level. TF better for deep learning algorithms (takes advantage of GPUs)
+
+
+Idé: Om möjligt, gå "baklänges" efter att nätverket tränats? Dvs generera bilder som ger maximal aktivering av nätverket (och därmed se hur sådana "optimala tracks" ser ut)
+(som DeepDream baserad på ImageNet)
+
+Hur ladda de skapade datafilerna? Borde resultatet hamna i sample_generator_output.dat? Den används aldrig (?)
+
+
+"The n_classes parameter specifies the number of possible values that the neural network can predict. Since the Iris problem classifies 3 Iris species, we set n_classes to 3."
